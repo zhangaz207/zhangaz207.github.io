@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>YOUR NAME · Projects</title>
+<title>Andrew Zhang · Projects</title>
 <link rel="icon" href="data:,">
 <style>
   :root { --max: 900px; }
@@ -15,35 +15,76 @@
   .card{background:#0f1318;border:1px solid #1f2328;border-radius:16px;padding:16px}
   .card h3{margin:.2rem 0;font-size:1.05rem}
   .tag{font-size:.8rem;opacity:.8}
+  .preview{width:100%;height:200px;background:#1a1f26;border-radius:8px;margin:12px 0;display:flex;align-items:center;justify-content:center;border:1px solid #2d3339}
+  .preview img{max-width:100%;max-height:100%;border-radius:4px}
+  .preview video{max-width:100%;max-height:100%;border-radius:4px}
+  .preview-placeholder{color:#7d8590;font-size:.9rem;text-align:center}
+  .demo-link{display:inline-block;margin-top:8px;padding:6px 12px;background:#238636;color:#fff;border-radius:6px;font-size:.85rem;text-decoration:none}
+  .demo-link:hover{background:#2ea043;text-decoration:none}
   footer{max-width:var(--max);margin:0 auto;padding:32px 20px;border-top:1px solid #1f2328;opacity:.8}
 </style>
 <header>
-  <h1>YOUR NAME</h1>
-  <p>Math/CS • Projects, notes, and experiments</p>
-  <p><a href="https://github.com/USERNAME">github.com/USERNAME</a></p>
+  <h1>Andrew Zhang</h1>
+  <p>Welcome to my website! My name is Andrew Zhang and I'm a fourth year at UCLA studying Math and CS.
+    Here You can find my some of projects, papers, and other work.
+  </p>
+  <p><a href="https://github.com/zhangaz207">github.com/zhangaz207</a></p>
 </header>
 <main>
   <h2>Highlighted Projects</h2>
   <div class="grid">
     <div class="card">
-      <h3><a href="https://github.com/USERNAME/PROJECT_A">PROJECT_A</a></h3>
-      <p>One-line description of what it does and why it’s cool.</p>
-      <div class="tag">C++ · OpenGL</div>
+      <h3><a href="https://github.com/zhangaz207/FitAI">FitAI</a></h3>
+      <p>An innovative client/server fitness app designed to track, analyze, personalize, and share workouts using AI-powered recommendations.</p>
+      <div class="preview">
+        <div class="preview-placeholder">
+          📱 Web App Preview<br>
+          <small>Login → Dashboard → Workout Tracking</small>
+        </div>
+      </div>
+      <a href="https://github.com/zhangaz207/FitAI" class="demo-link">View Code</a>
+      <div class="tag">React · Express · MySQL · Google Gemini API</div>
     </div>
     <div class="card">
-      <h3><a href="https://github.com/USERNAME/PROJECT_B">PROJECT_B</a></h3>
-      <p>Short summary; include a demo link if you have one.</p>
-      <div class="tag">Python · ML</div>
+      <h3><a href="https://github.com/zhangaz207/Artificial-Flora">Artificial Flora</a></h3>
+      <p>L-system generator with a unique vocabulary for creating procedural plant-like structures and patterns.</p>
+      <div class="preview">
+        <div class="preview-placeholder">
+          🌱 Procedural Plants<br>
+          <small>L-System Generation Demo</small>
+        </div>
+      </div>
+      <a href="https://github.com/zhangaz207/Artificial-Flora" class="demo-link">View Code</a>
+      <div class="tag">C++ · Godot · Procedural Generation</div>
     </div>
     <div class="card">
-      <h3><a href="https://github.com/USERNAME/PROJECT_C">PROJECT_C</a></h3>
-      <p>What problem it solves; a neat result.</p>
-      <div class="tag">Haskell</div>
+      <h3><a href="https://github.com/zhangaz207/WayFindersGame">WayFinders Game</a></h3>
+      <p>A game development project exploring interactive gameplay mechanics and user experience design.</p>
+      <div class="preview">
+        <div class="preview-placeholder">
+          🎮 Gameplay Preview<br>
+          <small>Interactive Game Demo</small>
+        </div>
+      </div>
+      <a href="https://github.com/zhangaz207/WayFindersGame" class="demo-link">View Code</a>
+      <div class="tag">Game Development · CS174A</div>
+    </div>
+    <div class="card">
+      <h3><a href="https://github.com/Brandon-Wu3106/BallEvolution">Ball Evolution</a></h3>
+      <p>A collaborative game development project focusing on evolutionary gameplay mechanics and physics simulation.</p>
+      <div class="preview">
+        <div class="preview-placeholder">
+          ⚽ Physics Simulation<br>
+          <small>Evolutionary Gameplay Demo</small>
+        </div>
+      </div>
+      <a href="https://github.com/Brandon-Wu3106/BallEvolution" class="demo-link">View Code</a>
+      <div class="tag">Game Development · CS174C</div>
     </div>
   </div>
 </main>
 <footer>
-  © <span id="y"></span> YOUR NAME · Built with GitHub Pages
+  © <span id="y"></span> Andrew Zhang · Built with GitHub Pages
   <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
 </footer>
 </html>
