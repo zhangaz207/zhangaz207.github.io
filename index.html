@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>YOUR NAME · Projects</title>
+<link rel="icon" href="data:,">
+<style>
+  :root { --max: 900px; }
+  html,body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,Arial,sans-serif;background:#0b0d10;color:#e6edf3;}
+  a{color:#7cc7ff;text-decoration:none} a:hover{text-decoration:underline}
+  header{padding:48px 20px;text-align:center;border-bottom:1px solid #1f2328}
+  h1{margin:0;font-size:2rem}
+  main{max-width:var(--max);margin:0 auto;padding:28px 20px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{background:#0f1318;border:1px solid #1f2328;border-radius:16px;padding:16px}
+  .card h3{margin:.2rem 0;font-size:1.05rem}
+  .tag{font-size:.8rem;opacity:.8}
+  footer{max-width:var(--max);margin:0 auto;padding:32px 20px;border-top:1px solid #1f2328;opacity:.8}
+</style>
+<header>
+  <h1>YOUR NAME</h1>
+  <p>Math/CS • Projects, notes, and experiments</p>
+  <p><a href="https://github.com/USERNAME">github.com/USERNAME</a></p>
+</header>
+<main>
+  <h2>Highlighted Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3><a href="https://github.com/USERNAME/PROJECT_A">PROJECT_A</a></h3>
+      <p>One-line description of what it does and why it’s cool.</p>
+      <div class="tag">C++ · OpenGL</div>
+    </div>
+    <div class="card">
+      <h3><a href="https://github.com/USERNAME/PROJECT_B">PROJECT_B</a></h3>
+      <p>Short summary; include a demo link if you have one.</p>
+      <div class="tag">Python · ML</div>
+    </div>
+    <div class="card">
+      <h3><a href="https://github.com/USERNAME/PROJECT_C">PROJECT_C</a></h3>
+      <p>What problem it solves; a neat result.</p>
+      <div class="tag">Haskell</div>
+    </div>
+  </div>
+</main>
+<footer>
+  © <span id="y"></span> YOUR NAME · Built with GitHub Pages
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</footer>
+</html>
